@@ -27,11 +27,9 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
+	new_hash = {}
 	key.to_sym
-	new_hash = {
-		key: value
-	}
-	new_hash
+	new_hash[key: value]
 end
 
 def read_from_hash(hash, key)

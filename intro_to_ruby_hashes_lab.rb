@@ -5,8 +5,8 @@ end
 
 def my_hash
   fruit = {
-  	apple: 2
-  	banana: 1
+  	apple: 2,
+  	banana: 1,
   	mango: 10
   }
   fruit
